@@ -17,7 +17,7 @@
                BlueprintIdentifier = "B5F837531DB629B400E8DB72"
                BuildableName = "iPad&#x70b9;&#x9910;demo.app"
                BlueprintName = "iPad&#x70b9;&#x9910;demo"
-               ReferencedContainer = "container:iPad&#x70b9;&#x9910;demo.xcodeproj">
+               ReferencedContainer = "container:SplitVCDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "B5F8376F1DB629B500E8DB72"
                BuildableName = "iPad&#x70b9;&#x9910;demoTests.xctest"
                BlueprintName = "iPad&#x70b9;&#x9910;demoTests"
-               ReferencedContainer = "container:iPad&#x70b9;&#x9910;demo.xcodeproj">
+               ReferencedContainer = "container:SplitVCDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "B5F8377A1DB629B500E8DB72"
                BuildableName = "iPad&#x70b9;&#x9910;demoUITests.xctest"
                BlueprintName = "iPad&#x70b9;&#x9910;demoUITests"
-               ReferencedContainer = "container:iPad&#x70b9;&#x9910;demo.xcodeproj">
+               ReferencedContainer = "container:SplitVCDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "B5F837531DB629B400E8DB72"
             BuildableName = "iPad&#x70b9;&#x9910;demo.app"
             BlueprintName = "iPad&#x70b9;&#x9910;demo"
-            ReferencedContainer = "container:iPad&#x70b9;&#x9910;demo.xcodeproj">
+            ReferencedContainer = "container:SplitVCDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "B5F837531DB629B400E8DB72"
             BuildableName = "iPad&#x70b9;&#x9910;demo.app"
             BlueprintName = "iPad&#x70b9;&#x9910;demo"
-            ReferencedContainer = "container:iPad&#x70b9;&#x9910;demo.xcodeproj">
+            ReferencedContainer = "container:SplitVCDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "B5F837531DB629B400E8DB72"
             BuildableName = "iPad&#x70b9;&#x9910;demo.app"
             BlueprintName = "iPad&#x70b9;&#x9910;demo"
-            ReferencedContainer = "container:iPad&#x70b9;&#x9910;demo.xcodeproj">
+            ReferencedContainer = "container:SplitVCDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

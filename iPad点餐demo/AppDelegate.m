@@ -7,16 +7,41 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LeftMenuTableViewController.h"
+#import "DetailViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+@synthesize splitVC;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //masterView
+    LeftMenuTableViewController *leftTableView = [[LeftMenuTableViewController alloc]initWithStyle:UITableViewStylePlain];
+    UINavigationController *leftNav = [[UINavigationController alloc] initWithRootViewController:leftTableView];
+    //detailView
+    DetailViewController *detailView = [[DetailViewController alloc] init];
+    UINavigationController *rightNav = [[UINavigationController alloc] initWithRootViewController:detailView];
+    
+    //初始化UISplitViewController
+    splitVC = [[UISplitViewController alloc] init];
+    //配置分屏视图界面外观
+    splitVC.preferredDisplayMode = UISplitViewControllerDisplayModeAllVisible;
+    //调整masterViewController的宽度，按百分比调整
+    splitVC.preferredPrimaryColumnWidthFraction = 0.1;
+    //手势识别器，让用户使用划动动作更改显示模式
+    splitVC.presentsWithGesture = YES;
+    splitVC.delegate = detailView;
+    splitVC.viewControllers = @[leftNav,rightNav];
+    self.window.rootViewController = splitVC;
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
