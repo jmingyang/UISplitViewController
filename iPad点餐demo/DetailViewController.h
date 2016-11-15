@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController<UISplitViewControllerDelegate>
+@interface DetailViewController : UIViewController<UISplitViewControllerDelegate,UICollectionViewDataSource , UICollectionViewDelegate , UICollectionViewDelegateFlowLayout>
 -(void)change;
 @property (strong, nonatomic) UIColor *color;
 @end

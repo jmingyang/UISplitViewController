@@ -9,7 +9,8 @@
 #import "LeftMenuTableViewController.h"
 #import "leftTableViewCell.h"
 #import "DetailViewController.h"
-
+#import "AFAppDotNetAPIClient.h"
+#import "XmlParser.h"
 @interface LeftMenuTableViewController ()
 
 @end

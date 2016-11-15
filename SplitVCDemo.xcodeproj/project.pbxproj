@@ -8,6 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		B52B249E1DB862D400A6E691 /* leftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B52B249D1DB862D400A6E691 /* leftTableViewCell.m */; };
+		B5515E5F1DD974B400C6A561 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B5515E5E1DD974B400C6A561 /* libxml2.tbd */; };
+		B5515E731DD974E700C6A561 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B5515E641DD974E700C6A561 /* DDXMLElementAdditions.m */; };
+		B5515E741DD974E700C6A561 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = B5515E671DD974E700C6A561 /* NSString+DDXML.m */; };
+		B5515E751DD974E700C6A561 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B5515E6A1DD974E700C6A561 /* DDXMLDocument.m */; };
+		B5515E761DD974E700C6A561 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B5515E6C1DD974E700C6A561 /* DDXMLElement.m */; };
+		B5515E771DD974E700C6A561 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B5515E6E1DD974E700C6A561 /* DDXMLNode.m */; };
+		B5515E781DD974E700C6A561 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B5515E711DD974E700C6A561 /* LICENSE.txt */; };
+		B5515E831DD9757B00C6A561 /* AFAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B5515E7D1DD9757B00C6A561 /* AFAppDotNetAPIClient.m */; };
+		B5515E851DD9757B00C6A561 /* XmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B5515E821DD9757B00C6A561 /* XmlParser.m */; };
+		B55172C61DD574FF0055A2ED /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B55172A31DD574FF0055A2ED /* AFHTTPSessionManager.m */; };
+		B55172C71DD574FF0055A2ED /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B55172A61DD574FF0055A2ED /* AFNetworkReachabilityManager.m */; };
+		B55172C81DD574FF0055A2ED /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B55172A81DD574FF0055A2ED /* AFSecurityPolicy.m */; };
+		B55172C91DD574FF0055A2ED /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B55172AA1DD574FF0055A2ED /* AFURLRequestSerialization.m */; };
+		B55172CA1DD574FF0055A2ED /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B55172AC1DD574FF0055A2ED /* AFURLResponseSerialization.m */; };
+		B55172CB1DD575000055A2ED /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B55172AE1DD574FF0055A2ED /* AFURLSessionManager.m */; };
+		B55172CC1DD575000055A2ED /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B55172AF1DD574FF0055A2ED /* LICENSE */; };
+		B55172CE1DD575000055A2ED /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B55172B31DD574FF0055A2ED /* AFAutoPurgingImageCache.m */; };
+		B55172CF1DD575000055A2ED /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B55172B51DD574FF0055A2ED /* AFImageDownloader.m */; };
+		B55172D01DD575000055A2ED /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B55172B71DD574FF0055A2ED /* AFNetworkActivityIndicatorManager.m */; };
+		B55172D11DD575000055A2ED /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B55172B91DD574FF0055A2ED /* UIActivityIndicatorView+AFNetworking.m */; };
+		B55172D21DD575000055A2ED /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B55172BB1DD574FF0055A2ED /* UIButton+AFNetworking.m */; };
+		B55172D31DD575000055A2ED /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B55172BE1DD574FF0055A2ED /* UIImageView+AFNetworking.m */; };
+		B55172D41DD575000055A2ED /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B55172C11DD574FF0055A2ED /* UIProgressView+AFNetworking.m */; };
+		B55172D51DD575000055A2ED /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B55172C31DD574FF0055A2ED /* UIRefreshControl+AFNetworking.m */; };
+		B55172D61DD575000055A2ED /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B55172C51DD574FF0055A2ED /* UIWebView+AFNetworking.m */; };
+		B55172D81DD575450055A2ED /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55172D71DD575450055A2ED /* Security.framework */; };
+		B55172DA1DD575500055A2ED /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55172D91DD575500055A2ED /* MobileCoreServices.framework */; };
+		B55172DC1DD5755C0055A2ED /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55172DB1DD5755C0055A2ED /* SystemConfiguration.framework */; };
+		B5A2AA681DDA035D009CC48B /* DetailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A2AA661DDA035D009CC48B /* DetailCollectionViewCell.m */; };
+		B5A2AA691DDA035D009CC48B /* DetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A2AA671DDA035D009CC48B /* DetailCollectionViewCell.xib */; };
 		B5F837591DB629B500E8DB72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F837581DB629B500E8DB72 /* main.m */; };
 		B5F8375C1DB629B500E8DB72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8375B1DB629B500E8DB72 /* AppDelegate.m */; };
 		B5F837651DB629B500E8DB72 /* iPad__demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5F837631DB629B500E8DB72 /* iPad__demo.xcdatamodeld */; };
@@ -40,7 +70,65 @@
 /* Begin PBXFileReference section */
 		B52B249C1DB862D400A6E691 /* leftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leftTableViewCell.h; sourceTree = "<group>"; };
 		B52B249D1DB862D400A6E691 /* leftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = leftTableViewCell.m; sourceTree = "<group>"; };
-		B5F837541DB629B400E8DB72 /* iPad点餐demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad点餐demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5515E5E1DD974B400C6A561 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		B5515E631DD974E700C6A561 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		B5515E641DD974E700C6A561 /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		B5515E661DD974E700C6A561 /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		B5515E671DD974E700C6A561 /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		B5515E681DD974E700C6A561 /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		B5515E691DD974E700C6A561 /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		B5515E6A1DD974E700C6A561 /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		B5515E6B1DD974E700C6A561 /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		B5515E6C1DD974E700C6A561 /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		B5515E6D1DD974E700C6A561 /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		B5515E6E1DD974E700C6A561 /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		B5515E701DD974E700C6A561 /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		B5515E711DD974E700C6A561 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		B5515E7C1DD9757B00C6A561 /* AFAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDotNetAPIClient.h; sourceTree = "<group>"; };
+		B5515E7D1DD9757B00C6A561 /* AFAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDotNetAPIClient.m; sourceTree = "<group>"; };
+		B5515E811DD9757B00C6A561 /* XmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParser.h; sourceTree = "<group>"; };
+		B5515E821DD9757B00C6A561 /* XmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlParser.m; sourceTree = "<group>"; };
+		B55172A21DD574FF0055A2ED /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		B55172A31DD574FF0055A2ED /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		B55172A41DD574FF0055A2ED /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		B55172A51DD574FF0055A2ED /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		B55172A61DD574FF0055A2ED /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		B55172A71DD574FF0055A2ED /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		B55172A81DD574FF0055A2ED /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		B55172A91DD574FF0055A2ED /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		B55172AA1DD574FF0055A2ED /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		B55172AB1DD574FF0055A2ED /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		B55172AC1DD574FF0055A2ED /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		B55172AD1DD574FF0055A2ED /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		B55172AE1DD574FF0055A2ED /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		B55172AF1DD574FF0055A2ED /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B55172B21DD574FF0055A2ED /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
+		B55172B31DD574FF0055A2ED /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
+		B55172B41DD574FF0055A2ED /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
+		B55172B51DD574FF0055A2ED /* AFImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
+		B55172B61DD574FF0055A2ED /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		B55172B71DD574FF0055A2ED /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		B55172B81DD574FF0055A2ED /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		B55172B91DD574FF0055A2ED /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		B55172BA1DD574FF0055A2ED /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		B55172BB1DD574FF0055A2ED /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		B55172BC1DD574FF0055A2ED /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		B55172BD1DD574FF0055A2ED /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		B55172BE1DD574FF0055A2ED /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		B55172BF1DD574FF0055A2ED /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		B55172C01DD574FF0055A2ED /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		B55172C11DD574FF0055A2ED /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		B55172C21DD574FF0055A2ED /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		B55172C31DD574FF0055A2ED /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		B55172C41DD574FF0055A2ED /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		B55172C51DD574FF0055A2ED /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		B55172D71DD575450055A2ED /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B55172D91DD575500055A2ED /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B55172DB1DD5755C0055A2ED /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B5A2AA651DDA035D009CC48B /* DetailCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCollectionViewCell.h; sourceTree = "<group>"; };
+		B5A2AA661DDA035D009CC48B /* DetailCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCollectionViewCell.m; sourceTree = "<group>"; };
+		B5A2AA671DDA035D009CC48B /* DetailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		B5F837541DB629B400E8DB72 /* SplitVCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitVCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F837581DB629B500E8DB72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5F8375A1DB629B500E8DB72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5F8375B1DB629B500E8DB72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,10 +136,10 @@
 		B5F837661DB629B500E8DB72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5F837691DB629B500E8DB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5F8376B1DB629B500E8DB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5F837701DB629B500E8DB72 /* iPad点餐demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPad点餐demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F837701DB629B500E8DB72 /* SplitVCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitVCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F837741DB629B500E8DB72 /* iPad__demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPad__demoTests.m; sourceTree = "<group>"; };
 		B5F837761DB629B500E8DB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5F8377B1DB629B500E8DB72 /* iPad点餐demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPad点餐demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F8377B1DB629B500E8DB72 /* SplitVCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitVCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F8377F1DB629B500E8DB72 /* iPad__demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPad__demoUITests.m; sourceTree = "<group>"; };
 		B5F837811DB629B600E8DB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5F837901DB7182700E8DB72 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
@@ -66,6 +154,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5515E5F1DD974B400C6A561 /* libxml2.tbd in Frameworks */,
+				B55172DC1DD5755C0055A2ED /* SystemConfiguration.framework in Frameworks */,
+				B55172DA1DD575500055A2ED /* MobileCoreServices.framework in Frameworks */,
+				B55172D81DD575450055A2ED /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,13 +178,153 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5515E601DD974E700C6A561 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				B5515E611DD974E700C6A561 /* KissXML */,
+				B5515E711DD974E700C6A561 /* LICENSE.txt */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		B5515E611DD974E700C6A561 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				B5515E621DD974E700C6A561 /* Additions */,
+				B5515E651DD974E700C6A561 /* Categories */,
+				B5515E681DD974E700C6A561 /* DDXML.h */,
+				B5515E691DD974E700C6A561 /* DDXMLDocument.h */,
+				B5515E6A1DD974E700C6A561 /* DDXMLDocument.m */,
+				B5515E6B1DD974E700C6A561 /* DDXMLElement.h */,
+				B5515E6C1DD974E700C6A561 /* DDXMLElement.m */,
+				B5515E6D1DD974E700C6A561 /* DDXMLNode.h */,
+				B5515E6E1DD974E700C6A561 /* DDXMLNode.m */,
+				B5515E6F1DD974E700C6A561 /* Private */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		B5515E621DD974E700C6A561 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				B5515E631DD974E700C6A561 /* DDXMLElementAdditions.h */,
+				B5515E641DD974E700C6A561 /* DDXMLElementAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		B5515E651DD974E700C6A561 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B5515E661DD974E700C6A561 /* NSString+DDXML.h */,
+				B5515E671DD974E700C6A561 /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B5515E6F1DD974E700C6A561 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				B5515E701DD974E700C6A561 /* DDXMLPrivate.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		B5515E7A1DD9757B00C6A561 /* nerwork */ = {
+			isa = PBXGroup;
+			children = (
+				B5515E7B1DD9757B00C6A561 /* AFNetworking */,
+				B5515E7E1DD9757B00C6A561 /* KissXML */,
+			);
+			path = nerwork;
+			sourceTree = "<group>";
+		};
+		B5515E7B1DD9757B00C6A561 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B5515E7C1DD9757B00C6A561 /* AFAppDotNetAPIClient.h */,
+				B5515E7D1DD9757B00C6A561 /* AFAppDotNetAPIClient.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		B5515E7E1DD9757B00C6A561 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				B5515E811DD9757B00C6A561 /* XmlParser.h */,
+				B5515E821DD9757B00C6A561 /* XmlParser.m */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		B55172A01DD574FF0055A2ED /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B55172A11DD574FF0055A2ED /* AFNetworking */,
+				B55172AF1DD574FF0055A2ED /* LICENSE */,
+				B55172B11DD574FF0055A2ED /* UIKit+AFNetworking */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		B55172A11DD574FF0055A2ED /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B55172A21DD574FF0055A2ED /* AFHTTPSessionManager.h */,
+				B55172A31DD574FF0055A2ED /* AFHTTPSessionManager.m */,
+				B55172A41DD574FF0055A2ED /* AFNetworking.h */,
+				B55172A51DD574FF0055A2ED /* AFNetworkReachabilityManager.h */,
+				B55172A61DD574FF0055A2ED /* AFNetworkReachabilityManager.m */,
+				B55172A71DD574FF0055A2ED /* AFSecurityPolicy.h */,
+				B55172A81DD574FF0055A2ED /* AFSecurityPolicy.m */,
+				B55172A91DD574FF0055A2ED /* AFURLRequestSerialization.h */,
+				B55172AA1DD574FF0055A2ED /* AFURLRequestSerialization.m */,
+				B55172AB1DD574FF0055A2ED /* AFURLResponseSerialization.h */,
+				B55172AC1DD574FF0055A2ED /* AFURLResponseSerialization.m */,
+				B55172AD1DD574FF0055A2ED /* AFURLSessionManager.h */,
+				B55172AE1DD574FF0055A2ED /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		B55172B11DD574FF0055A2ED /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B55172B21DD574FF0055A2ED /* AFAutoPurgingImageCache.h */,
+				B55172B31DD574FF0055A2ED /* AFAutoPurgingImageCache.m */,
+				B55172B41DD574FF0055A2ED /* AFImageDownloader.h */,
+				B55172B51DD574FF0055A2ED /* AFImageDownloader.m */,
+				B55172B61DD574FF0055A2ED /* AFNetworkActivityIndicatorManager.h */,
+				B55172B71DD574FF0055A2ED /* AFNetworkActivityIndicatorManager.m */,
+				B55172B81DD574FF0055A2ED /* UIActivityIndicatorView+AFNetworking.h */,
+				B55172B91DD574FF0055A2ED /* UIActivityIndicatorView+AFNetworking.m */,
+				B55172BA1DD574FF0055A2ED /* UIButton+AFNetworking.h */,
+				B55172BB1DD574FF0055A2ED /* UIButton+AFNetworking.m */,
+				B55172BC1DD574FF0055A2ED /* UIImage+AFNetworking.h */,
+				B55172BD1DD574FF0055A2ED /* UIImageView+AFNetworking.h */,
+				B55172BE1DD574FF0055A2ED /* UIImageView+AFNetworking.m */,
+				B55172BF1DD574FF0055A2ED /* UIKit+AFNetworking.h */,
+				B55172C01DD574FF0055A2ED /* UIProgressView+AFNetworking.h */,
+				B55172C11DD574FF0055A2ED /* UIProgressView+AFNetworking.m */,
+				B55172C21DD574FF0055A2ED /* UIRefreshControl+AFNetworking.h */,
+				B55172C31DD574FF0055A2ED /* UIRefreshControl+AFNetworking.m */,
+				B55172C41DD574FF0055A2ED /* UIWebView+AFNetworking.h */,
+				B55172C51DD574FF0055A2ED /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
 		B5F8374B1DB629B400E8DB72 = {
 			isa = PBXGroup;
 			children = (
+				B5515E5E1DD974B400C6A561 /* libxml2.tbd */,
+				B55172DB1DD5755C0055A2ED /* SystemConfiguration.framework */,
+				B55172D91DD575500055A2ED /* MobileCoreServices.framework */,
+				B55172D71DD575450055A2ED /* Security.framework */,
 				B5F8379F1DB761C400E8DB72 /* FoodModel.xcdatamodeld */,
-				B5F837561DB629B500E8DB72 /* iPad点餐demo */,
-				B5F837731DB629B500E8DB72 /* iPad点餐demoTests */,
-				B5F8377E1DB629B500E8DB72 /* iPad点餐demoUITests */,
+				B5F837561DB629B500E8DB72 /* SplitVCDemo */,
+				B5F837731DB629B500E8DB72 /* SplitVCDemoTests */,
+				B5F8377E1DB629B500E8DB72 /* SplitVCDemoUITests */,
 				B5F837551DB629B400E8DB72 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,16 +332,19 @@
 		B5F837551DB629B400E8DB72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5F837541DB629B400E8DB72 /* iPad点餐demo.app */,
-				B5F837701DB629B500E8DB72 /* iPad点餐demoTests.xctest */,
-				B5F8377B1DB629B500E8DB72 /* iPad点餐demoUITests.xctest */,
+				B5F837541DB629B400E8DB72 /* SplitVCDemo.app */,
+				B5F837701DB629B500E8DB72 /* SplitVCDemoTests.xctest */,
+				B5F8377B1DB629B500E8DB72 /* SplitVCDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B5F837561DB629B500E8DB72 /* iPad点餐demo */ = {
+		B5F837561DB629B500E8DB72 /* SplitVCDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B5515E7A1DD9757B00C6A561 /* nerwork */,
+				B5515E601DD974E700C6A561 /* KissXML */,
+				B55172A01DD574FF0055A2ED /* AFNetworking */,
 				B5F8375A1DB629B500E8DB72 /* AppDelegate.h */,
 				B5F8375B1DB629B500E8DB72 /* AppDelegate.m */,
 				B5F837991DB71B2400E8DB72 /* LeftMenuTableViewController.h */,
@@ -118,12 +353,16 @@
 				B52B249D1DB862D400A6E691 /* leftTableViewCell.m */,
 				B5F837901DB7182700E8DB72 /* DetailViewController.h */,
 				B5F837911DB7182700E8DB72 /* DetailViewController.m */,
+				B5A2AA651DDA035D009CC48B /* DetailCollectionViewCell.h */,
+				B5A2AA661DDA035D009CC48B /* DetailCollectionViewCell.m */,
+				B5A2AA671DDA035D009CC48B /* DetailCollectionViewCell.xib */,
 				B5F837661DB629B500E8DB72 /* Assets.xcassets */,
 				B5F837681DB629B500E8DB72 /* LaunchScreen.storyboard */,
 				B5F8376B1DB629B500E8DB72 /* Info.plist */,
 				B5F837631DB629B500E8DB72 /* iPad__demo.xcdatamodeld */,
 				B5F837571DB629B500E8DB72 /* Supporting Files */,
 			);
+			name = SplitVCDemo;
 			path = "iPad点餐demo";
 			sourceTree = "<group>";
 		};
@@ -135,30 +374,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B5F837731DB629B500E8DB72 /* iPad点餐demoTests */ = {
+		B5F837731DB629B500E8DB72 /* SplitVCDemoTests */ = {
 			isa = PBXGroup;
 			children = (
 				B5F837741DB629B500E8DB72 /* iPad__demoTests.m */,
 				B5F837761DB629B500E8DB72 /* Info.plist */,
 			);
+			name = SplitVCDemoTests;
 			path = "iPad点餐demoTests";
 			sourceTree = "<group>";
 		};
-		B5F8377E1DB629B500E8DB72 /* iPad点餐demoUITests */ = {
+		B5F8377E1DB629B500E8DB72 /* SplitVCDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
 				B5F8377F1DB629B500E8DB72 /* iPad__demoUITests.m */,
 				B5F837811DB629B600E8DB72 /* Info.plist */,
 			);
+			name = SplitVCDemoUITests;
 			path = "iPad点餐demoUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5F837531DB629B400E8DB72 /* iPad点餐demo */ = {
+		B5F837531DB629B400E8DB72 /* SplitVCDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5F837841DB629B600E8DB72 /* Build configuration list for PBXNativeTarget "iPad点餐demo" */;
+			buildConfigurationList = B5F837841DB629B600E8DB72 /* Build configuration list for PBXNativeTarget "SplitVCDemo" */;
 			buildPhases = (
 				B5F837501DB629B400E8DB72 /* Sources */,
 				B5F837511DB629B400E8DB72 /* Frameworks */,
@@ -168,14 +409,14 @@
 			);
 			dependencies = (
 			);
-			name = "iPad点餐demo";
+			name = SplitVCDemo;
 			productName = "iPad点餐demo";
-			productReference = B5F837541DB629B400E8DB72 /* iPad点餐demo.app */;
+			productReference = B5F837541DB629B400E8DB72 /* SplitVCDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5F8376F1DB629B500E8DB72 /* iPad点餐demoTests */ = {
+		B5F8376F1DB629B500E8DB72 /* SplitVCDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5F837871DB629B600E8DB72 /* Build configuration list for PBXNativeTarget "iPad点餐demoTests" */;
+			buildConfigurationList = B5F837871DB629B600E8DB72 /* Build configuration list for PBXNativeTarget "SplitVCDemoTests" */;
 			buildPhases = (
 				B5F8376C1DB629B500E8DB72 /* Sources */,
 				B5F8376D1DB629B500E8DB72 /* Frameworks */,
@@ -186,14 +427,14 @@
 			dependencies = (
 				B5F837721DB629B500E8DB72 /* PBXTargetDependency */,
 			);
-			name = "iPad点餐demoTests";
+			name = SplitVCDemoTests;
 			productName = "iPad点餐demoTests";
-			productReference = B5F837701DB629B500E8DB72 /* iPad点餐demoTests.xctest */;
+			productReference = B5F837701DB629B500E8DB72 /* SplitVCDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B5F8377A1DB629B500E8DB72 /* iPad点餐demoUITests */ = {
+		B5F8377A1DB629B500E8DB72 /* SplitVCDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5F8378A1DB629B600E8DB72 /* Build configuration list for PBXNativeTarget "iPad点餐demoUITests" */;
+			buildConfigurationList = B5F8378A1DB629B600E8DB72 /* Build configuration list for PBXNativeTarget "SplitVCDemoUITests" */;
 			buildPhases = (
 				B5F837771DB629B500E8DB72 /* Sources */,
 				B5F837781DB629B500E8DB72 /* Frameworks */,
@@ -204,9 +445,9 @@
 			dependencies = (
 				B5F8377D1DB629B500E8DB72 /* PBXTargetDependency */,
 			);
-			name = "iPad点餐demoUITests";
+			name = SplitVCDemoUITests;
 			productName = "iPad点餐demoUITests";
-			productReference = B5F8377B1DB629B500E8DB72 /* iPad点餐demoUITests.xctest */;
+			productReference = B5F8377B1DB629B500E8DB72 /* SplitVCDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -245,9 +486,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5F837531DB629B400E8DB72 /* iPad点餐demo */,
-				B5F8376F1DB629B500E8DB72 /* iPad点餐demoTests */,
-				B5F8377A1DB629B500E8DB72 /* iPad点餐demoUITests */,
+				B5F837531DB629B400E8DB72 /* SplitVCDemo */,
+				B5F8376F1DB629B500E8DB72 /* SplitVCDemoTests */,
+				B5F8377A1DB629B500E8DB72 /* SplitVCDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,8 +498,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5515E781DD974E700C6A561 /* LICENSE.txt in Resources */,
+				B55172CC1DD575000055A2ED /* LICENSE in Resources */,
 				B5F8376A1DB629B500E8DB72 /* LaunchScreen.storyboard in Resources */,
 				B5F837671DB629B500E8DB72 /* Assets.xcassets in Resources */,
+				B5A2AA691DDA035D009CC48B /* DetailCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,13 +527,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B55172CE1DD575000055A2ED /* AFAutoPurgingImageCache.m in Sources */,
 				B5F837651DB629B500E8DB72 /* iPad__demo.xcdatamodeld in Sources */,
+				B55172C71DD574FF0055A2ED /* AFNetworkReachabilityManager.m in Sources */,
 				B5F837A11DB761C400E8DB72 /* FoodModel.xcdatamodeld in Sources */,
+				B5515E851DD9757B00C6A561 /* XmlParser.m in Sources */,
 				B5F8375C1DB629B500E8DB72 /* AppDelegate.m in Sources */,
+				B5515E761DD974E700C6A561 /* DDXMLElement.m in Sources */,
 				B52B249E1DB862D400A6E691 /* leftTableViewCell.m in Sources */,
+				B55172D11DD575000055A2ED /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				B5A2AA681DDA035D009CC48B /* DetailCollectionViewCell.m in Sources */,
+				B55172D41DD575000055A2ED /* UIProgressView+AFNetworking.m in Sources */,
 				B5F837591DB629B500E8DB72 /* main.m in Sources */,
+				B55172D01DD575000055A2ED /* AFNetworkActivityIndicatorManager.m in Sources */,
+				B55172CF1DD575000055A2ED /* AFImageDownloader.m in Sources */,
+				B55172D21DD575000055A2ED /* UIButton+AFNetworking.m in Sources */,
+				B55172D31DD575000055A2ED /* UIImageView+AFNetworking.m in Sources */,
+				B55172C81DD574FF0055A2ED /* AFSecurityPolicy.m in Sources */,
+				B5515E751DD974E700C6A561 /* DDXMLDocument.m in Sources */,
+				B5515E741DD974E700C6A561 /* NSString+DDXML.m in Sources */,
+				B55172C91DD574FF0055A2ED /* AFURLRequestSerialization.m in Sources */,
 				B5F837921DB7182700E8DB72 /* DetailViewController.m in Sources */,
+				B55172D61DD575000055A2ED /* UIWebView+AFNetworking.m in Sources */,
 				B5F8379B1DB71B2400E8DB72 /* LeftMenuTableViewController.m in Sources */,
+				B5515E771DD974E700C6A561 /* DDXMLNode.m in Sources */,
+				B55172D51DD575000055A2ED /* UIRefreshControl+AFNetworking.m in Sources */,
+				B5515E731DD974E700C6A561 /* DDXMLElementAdditions.m in Sources */,
+				B55172CA1DD574FF0055A2ED /* AFURLResponseSerialization.m in Sources */,
+				B55172CB1DD575000055A2ED /* AFURLSessionManager.m in Sources */,
+				B5515E831DD9757B00C6A561 /* AFAppDotNetAPIClient.m in Sources */,
+				B55172C61DD574FF0055A2ED /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,12 +581,12 @@
 /* Begin PBXTargetDependency section */
 		B5F837721DB629B500E8DB72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5F837531DB629B400E8DB72 /* iPad点餐demo */;
+			target = B5F837531DB629B400E8DB72 /* SplitVCDemo */;
 			targetProxy = B5F837711DB629B500E8DB72 /* PBXContainerItemProxy */;
 		};
 		B5F8377D1DB629B500E8DB72 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5F837531DB629B400E8DB72 /* iPad点餐demo */;
+			target = B5F837531DB629B400E8DB72 /* SplitVCDemo */;
 			targetProxy = B5F8377C1DB629B500E8DB72 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -425,6 +692,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "iPad点餐demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,6 +707,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "iPad点餐demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -506,7 +775,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5F837841DB629B600E8DB72 /* Build configuration list for PBXNativeTarget "iPad点餐demo" */ = {
+		B5F837841DB629B600E8DB72 /* Build configuration list for PBXNativeTarget "SplitVCDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5F837851DB629B600E8DB72 /* Debug */,
@@ -515,7 +784,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5F837871DB629B600E8DB72 /* Build configuration list for PBXNativeTarget "iPad点餐demoTests" */ = {
+		B5F837871DB629B600E8DB72 /* Build configuration list for PBXNativeTarget "SplitVCDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5F837881DB629B600E8DB72 /* Debug */,
@@ -524,7 +793,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5F8378A1DB629B600E8DB72 /* Build configuration list for PBXNativeTarget "iPad点餐demoUITests" */ = {
+		B5F8378A1DB629B600E8DB72 /* Build configuration list for PBXNativeTarget "SplitVCDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5F8378B1DB629B600E8DB72 /* Debug */,

@@ -18,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    [[NSUserDefaults standardUserDefaults] setObject:[NSNumber numberWithFloat:1.0] forKey:@"Data_version"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+    NSLog(@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"Data_version"]);
+    
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
     
     //masterView
@@ -30,7 +35,7 @@
     //初始化UISplitViewController
     splitVC = [[UISplitViewController alloc] init];
     //配置分屏视图界面外观
-    splitVC.preferredDisplayMode = UISplitViewControllerDisplayModeAllVisible;
+    splitVC.preferredDisplayMode = UISplitViewControllerDisplayModePrimaryHidden;
     //调整masterViewController的宽度，按百分比调整
     splitVC.preferredPrimaryColumnWidthFraction = 0.1;
     //手势识别器，让用户使用划动动作更改显示模式
