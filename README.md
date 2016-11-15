@@ -1,0 +1,2 @@
+# SplitVCDemo
+包括splitViewController和CollectionViewController
